@@ -1,4 +1,4 @@
-import { FiLogin } from "react-icons/fi";
+import { FiLogIn } from "react-icons/fi"; // ← اصلاح شد
 import styles from "@/layout/Header.module.css";
 import Link from "next/link";
 
@@ -11,13 +11,13 @@ function Header() {
             <Link href="/">صفحه اصلی</Link>
           </li>
           <li>
-            <Link href="/buy-residential">آگهی ها</Link>
+            <Link href="/buy-residential">آگهی‌ها</Link>
           </li>
         </ul>
       </div>
       <div className={styles.login}>
-        <Link href="./signin">
-          <FiLogin />
+        <Link href="/signin">
+          <FiLogIn style={{ marginLeft: "5px" }} />
           <span>ورود</span>
         </Link>
       </div>
