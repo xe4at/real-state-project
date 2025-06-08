@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main>
-      <h1>سلام من احسانم</h1>
+      <h1>املاک زیرو ایت</h1>
     </main>
   );
 }

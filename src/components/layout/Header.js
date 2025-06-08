@@ -12,6 +12,7 @@ function Header() {
           </li>
           <li>
             <Link href="/buy-residential">آگهی‌ها</Link>
+            
           </li>
         </ul>
       </div>
