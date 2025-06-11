@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import { signIn } from "next-auth/react";
 import { Toaster, toast } from "react-hot-toast";
 import styles from "@/template/SignupPage.module.css";
-import Loader from "@/utils/loader";
+import Loader from "@/module/Loader";
 
 function SigninPage() {
   const [email, setEmail] = useState("");

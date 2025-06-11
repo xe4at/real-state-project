@@ -5,8 +5,7 @@ import styles from "@/template/SignupPage.module.css";
 import Link from "next/link";
 import toast, { Toaster } from "react-hot-toast";
 import { useRouter } from "next/navigation";
-import Loader from "@/utils/loader";
-
+import Loader from "@/module/Loader";
 function SignupPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
